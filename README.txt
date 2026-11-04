@@ -1,6 +1,8 @@
 Gauntlet: Dark Legacy - PC port
 ================================
 
+
+you will need the iso file to run the game :Gauntlet - Dark Legacy (Revision 1)
 Start "Gauntlet Launcher.exe", choose your settings and press PLAY.
 
 Files
