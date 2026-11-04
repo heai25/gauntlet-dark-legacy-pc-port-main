@@ -1,0 +1,761 @@
+[2026-11-04T04:51:57Z INFO  game::settings] [settings] Settings { width: 1920, height: 1080, fullscreen: true, fps60: true, widescreen: true, msaa: 8, iso: None, online: None, delay: 4 }
+[2026-11-04T04:51:57Z INFO  gcrecomp_core::runtime::sdk::os] OSInit called
+[2026-11-04T04:51:57Z INFO  gcrecomp_core::runtime::sdk::os] OSInit complete: arena ready, timer started
+[2026-11-04T04:51:57Z INFO  gcrecomp_core::runtime::sdk::os] No disc assets embedded; DVD filesystem disabled.
+[2026-11-04T04:51:57Z INFO  game] Disc image: C:\Users\irish\OneDrive\Desktop\gauntlet dark legacy\gauntligger\Gauntlet - Dark Legacy (Revision 1).iso
+[2026-11-04T04:51:57Z INFO  game::disc] Disc GUNE5D mounted: FST 3252 entries at 0x817EE780
+[2026-11-04T04:51:57Z INFO  gcrecomp_core::runtime::hle] HLE: installed 61 hooks
+[2026-11-04T04:51:57Z INFO  game::settings] [settings] patch on: 16:9 Widescreen
+[2026-11-04T04:51:57Z INFO  game::settings] [settings] patch on: 60 FPS
+[2026-11-04T04:51:57Z INFO  game] Running recompiled entry point 0x800051FC
+[2026-11-04T04:51:57Z INFO  game::OSReport] 
+    Dolphin OS $Revision: 49 $.
+[2026-11-04T04:51:57Z INFO  game::OSReport] Kernel built : Dec 17 2001 18:46:45
+[2026-11-04T04:51:57Z INFO  game::OSReport] Console Type :
+[2026-11-04T04:51:57Z INFO  game::OSReport] Retail 1
+[2026-11-04T04:51:57Z INFO  game::OSReport] Memory 24 MB
+[2026-11-04T04:51:57Z INFO  game::OSReport] Arena : 0x80359720 - 0x817ee780
+[2026-11-04T04:51:57Z INFO  game::OSReport] app booted from bootrom
+[2026-11-04T04:51:57Z INFO  game::gx_host] [gx] frame 0: 0 draws, 0 vertices, 0 texture binds; per frame: fifo 112ns, convert 0ns, wall 45.384µs (gap 5.4ms..5.4ms), decodes 0
+[2026-11-04T04:51:57Z INFO  game::audio] AX ready (host mixer)
+[2026-11-04T04:51:57Z INFO  game::audio] Audio output: 32000 Hz stereo
+[2026-11-04T04:51:57Z INFO  wgpu_hal::vulkan::instance] Debug utils not enabled: debug_utils_user_data not passed to Instance::from_raw
+[2026-11-04T04:51:57Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-04T04:51:57Z INFO  wgpu_core::instance] Adapter Vulkan AdapterInfo { name: "NVIDIA GeForce RTX 4070 Ti SUPER", vendor: 4318, device: 9989, device_type: DiscreteGpu, driver: "NVIDIA", driver_info: "621.01", backend: Vulkan }
+[2026-11-04T04:51:57Z INFO  game::gx_render] [gx] GPU: NVIDIA GeForce RTX 4070 Ti SUPER (Vulkan)
+[2026-11-04T04:51:57Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-04T04:51:57Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-04T04:51:58Z INFO  game::gx_render] [gx] MSAA 8x
+[2026-11-04T04:51:58Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-04T04:51:58Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-04T04:51:58Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-04T04:51:58Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-04T04:51:58Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-04T04:51:58Z INFO  game::console] Initializing memory...
+[2026-11-04T04:51:58Z INFO  game::console] Available Memory = 20742144
+[2026-11-04T04:51:58Z INFO  game::console] Free memory 20255 K,  19 MB LoadModel==== ALLOC model[0]=static          , MEM:-00001k -> 000266K  [GEO=22K TEX=1058K]
+[2026-11-04T04:51:58Z INFO  game::console] Loading audio...
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=audio/audatps2.rom, MEM:000270k -> 000343k [72k]
+[2026-11-04T04:51:58Z INFO  game::console] Initializing controls...
+[2026-11-04T04:51:58Z INFO  game::console] MTAP 0 OPEN
+[2026-11-04T04:51:58Z INFO  game::card] [card] loaded Gauntlet - Dark Legacy (8 blocks)
+[2026-11-04T04:51:58Z INFO  game::card] [card] slot A: 1 file(s) in C:\Users\irish\OneDrive\Desktop\gauntlet dark legacy\gauntligger\saves\card_a
+[2026-11-04T04:51:58Z INFO  game::console] Initialization Done. MEM=20390528
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[1]=sony            , MEM:000343k -> 000538K  [GEO=1K TEX=194K]
+[2026-11-04T04:51:58Z INFO  game::console] === LFIXED model[1]=sony           , size=0x00000400
+[2026-11-04T04:51:58Z INFO  game::audio] [audio] peak level over last second: 0
+[2026-11-04T04:51:58Z INFO  game::console] game_init_once (VERSION 3.5)
+[2026-11-04T04:51:58Z INFO  game::console] Initializing Audio...
+[2026-11-04T04:51:58Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:51:58Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:51:58Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:51:58Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:51:58Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:51:58Z INFO  game::console] Loading Audio...
+[2026-11-04T04:51:58Z INFO  game::console] Loading Game.
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=text/english.rom, MEM:000344k -> 000362k [17k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=text/scroll_e.rom, MEM:000362k -> 000376k [13k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=text/hints_e.rom, MEM:000376k -> 000390k [13k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/8Hifonts.fnt, MEM:000390k -> 000391k [1k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/bars.fnt, MEM:000396k -> 000396k [0k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/arrows.fnt, MEM:000398k -> 000398k [0k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/score.fnt, MEM:000401k -> 000401k [0k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/scoratt.fnt, MEM:000403k -> 000403k [0k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/font32.fnt, MEM:000406k -> 000407k [1k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/initials.fnt, MEM:000411k -> 000412k [0k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/scoratt8.fnt, MEM:000415k -> 000416k [0k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/namefont.fnt, MEM:000418k -> 000418k [0k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/kanji10a.fnt, MEM:000421k -> 000424k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/kanji10b.fnt, MEM:000432k -> 000435k [3k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=fonts/kanji20a.fnt, MEM:000444k -> 000447k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] INITIALIZATION DONE. MEM=20275728 START=-2143135872 END=-2122393792
+[2026-11-04T04:51:58Z INFO  game::console] Initializing the game...
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/war.wad, MEM:000455k -> 000458k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/val.wad, MEM:000458k -> 000460k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/wiz.wad, MEM:000460k -> 000464k [3k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/arc.wad, MEM:000464k -> 000467k [3k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/dwf.wad, MEM:000467k -> 000470k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/kni.wad, MEM:000470k -> 000472k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/sor.wad, MEM:000472k -> 000476k [3k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/jes.wad, MEM:000476k -> 000479k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/min.wad, MEM:000479k -> 000482k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/fal.wad, MEM:000482k -> 000484k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/jac.wad, MEM:000484k -> 000488k [3k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/tig.wad, MEM:000488k -> 000491k [3k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/ogr.wad, MEM:000491k -> 000494k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/uni.wad, MEM:000494k -> 000496k [2k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/med.wad, MEM:000496k -> 000500k [3k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=pdata/hye.wad, MEM:000500k -> 000503k [2k]
+[2026-11-04T04:51:58Z INFO  game::console]     Player 0... MEM=20210224
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[1]=PLAYER 0        , MEM:000519k -> 000609K  [GEO=46K TEX=44K]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[2]=PLAYER 0        , MEM:000923k -> 001194K  [GEO=175K TEX=96K]
+[2026-11-04T04:51:58Z INFO  game::console]     Player 1... MEM=19469376
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[3]=PLAYER 1        , MEM:001242k -> 001333K  [GEO=46K TEX=44K]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[4]=PLAYER 1        , MEM:001647k -> 001918K  [GEO=175K TEX=96K]
+[2026-11-04T04:51:58Z INFO  game::console]     Player 2... MEM=18728512
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[5]=PLAYER 2        , MEM:001966k -> 002056K  [GEO=46K TEX=44K]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[6]=PLAYER 2        , MEM:002370k -> 002641K  [GEO=175K TEX=96K]
+[2026-11-04T04:51:58Z INFO  game::console]     Player 3... MEM=17987648
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[7]=PLAYER 3        , MEM:002689k -> 002780K  [GEO=46K TEX=44K]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[8]=PLAYER 3        , MEM:003094k -> 003365K  [GEO=175K TEX=96K]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[9]=powerups        , MEM:003413k -> 004584K  [GEO=611K TEX=559K]
+[2026-11-04T04:51:58Z INFO  game::console] === LFIXED model[9]=powerups       , size=0x00098f00
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=powerups/anim, MEM:004584k -> 004767k [183k]
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC model[10]=weapons         , MEM:004767k -> 006027K  [GEO=292K TEX=966K]
+[2026-11-04T04:51:58Z INFO  game::console] === LFIXED model[10]=weapons        , size=0x00049200
+[2026-11-04T04:51:58Z INFO  game::console] ==== ALLOC FILE=weapons/anim, MEM:006027k -> 006157k [130k]
+[2026-11-04T04:51:58Z INFO  game::console] Starting wave -1... MEM=14397840
+[2026-11-04T04:51:58Z INFO  game::console]   Worlds... MEM=14262864
+[2026-11-04T04:51:58Z INFO  game::console]   Enemies... MEM=14262864
+[2026-11-04T04:51:58Z INFO  game::console]   Items... MEM=14262864
+[2026-11-04T04:51:58Z INFO  game::console]   Critters... MEM=14262864
+[2026-11-04T04:51:58Z INFO  game::console]   Game... MEM=14262864
+[2026-11-04T04:51:58Z INFO  game::console]   Done. MEM=14262224
+[2026-11-04T04:51:58Z INFO  game::console] Init moving objects.
+[2026-11-04T04:51:59Z INFO  game::audio] [audio] peak level over last second: 11616
+[2026-11-04T04:52:00Z INFO  game::console] DCSERROR: Ads HARD shutdown
+[2026-11-04T04:52:00Z INFO  game::console] Inital load done. MEM=13627344
+[2026-11-04T04:52:00Z INFO  game::console] Starting wave -1... MEM=13627344
+[2026-11-04T04:52:00Z INFO  game::console]   Worlds... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Enemies... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Items... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Critters... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Game... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Done. MEM=14262224
+[2026-11-04T04:52:00Z INFO  game::console] Init moving objects.
+[2026-11-04T04:52:00Z INFO  game::audio] [audio] peak level over last second: 11620
+[2026-11-04T04:52:00Z INFO  game::gx_render] [gx] render: 504.121µs per presented frame
+[2026-11-04T04:52:00Z INFO  game::gx_host] [gx] frame 120: 1 draws, 6 vertices, 1 texture binds; per frame: fifo 5.514µs, convert 562.155µs, wall 25.860387ms (gap 16.2ms..1.0s), decodes 0
+[2026-11-04T04:52:00Z INFO  game::console] DCSERROR: Ads HARD shutdown
+[2026-11-04T04:52:00Z INFO  game::console] Starting wave -1... MEM=14249424
+[2026-11-04T04:52:00Z INFO  game::console]   Worlds... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Enemies... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Items... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Critters... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Game... MEM=14262864
+[2026-11-04T04:52:00Z INFO  game::console]   Done. MEM=14262224
+[2026-11-04T04:52:00Z INFO  game::console] Init moving objects.
+[2026-11-04T04:52:00Z INFO  game::console] DCSERROR: Ads HARD shutdown
+[2026-11-04T04:52:01Z INFO  game::console] Starting wave -2... MEM=14249424
+[2026-11-04T04:52:01Z INFO  game::console]   Worlds... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Enemies... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Items... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Critters... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Game... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Done. MEM=14262224
+[2026-11-04T04:52:01Z INFO  game::console] Init moving objects.
+[2026-11-04T04:52:01Z INFO  game::console] ==== ALLOC model[11]=sony            , MEM:006328k -> 006523K  [GEO=1K TEX=194K]
+[2026-11-04T04:52:01Z INFO  game::console] === LFIXED model[11]=sony           , size=0x00000400
+[2026-11-04T04:52:01Z INFO  game::console] Entered SAVEMOUNT PORT/SLOT 0,0 
+[2026-11-04T04:52:01Z INFO  game::card] [card] command 1 (chan 0, 0x0, 0x814df780) -> 0
+[2026-11-04T04:52:01Z INFO  game::card] [card] command 8 (chan 0, 0x0, 0x0) -> 0
+[2026-11-04T04:52:01Z INFO  game::console] SAVEMOUNT RETURNING 1....
+[2026-11-04T04:52:01Z INFO  game::console] Beginning save cache transaction......
+[2026-11-04T04:52:01Z INFO  game::card] [card] command 1 (chan 0, 0x0, 0x814df780) -> 0
+[2026-11-04T04:52:01Z INFO  game::card] [card] command 4 (chan 0, 0x0, 0x814e97a0) -> 0
+[2026-11-04T04:52:01Z INFO  game::card] [card] command 6 (chan 0, 0x0, 0x817c5000) -> 0
+[2026-11-04T04:52:01Z INFO  game::card] [card] command 2 (chan 0, 0x0, 0x0) -> 0
+[2026-11-04T04:52:01Z INFO  game::card] [card] command 8 (chan 0, 0x0, 0x0) -> 0
+[2026-11-04T04:52:01Z INFO  game::console] Finish save cache transaction......
+[2026-11-04T04:52:01Z INFO  game::console] Starting wave -1... MEM=14049536
+[2026-11-04T04:52:01Z INFO  game::console]   Worlds... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Enemies... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Items... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Critters... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Game... MEM=14262864
+[2026-11-04T04:52:01Z INFO  game::console]   Done. MEM=14262224
+[2026-11-04T04:52:01Z INFO  game::console] Init moving objects.
+[2026-11-04T04:52:01Z INFO  game::console] Load titlescreen.
+[2026-11-04T04:52:01Z INFO  game::console] ==== ALLOC model[11]=title           , MEM:006328k -> 006568K  [GEO=1K TEX=239K]
+[2026-11-04T04:52:01Z INFO  game::console] === LFIXED model[11]=title          , size=0x00000700
+[2026-11-04T04:52:01Z INFO  game::console] Audio Stop.
+[2026-11-04T04:52:01Z INFO  game::console] Audio Select.
+[2026-11-04T04:52:01Z INFO  game::console] Load select.
+[2026-11-04T04:52:01Z INFO  game::console] ==== ALLOC model[12]=select          , MEM:006568k -> 009818K  [GEO=22K TEX=3227K]
+[2026-11-04T04:52:01Z INFO  game::console] ============ BGLOAD model[12]=select alloc=5a00
+[2026-11-04T04:52:01Z INFO  game::console] Alloc mem.
+[2026-11-04T04:52:01Z INFO  game::console] Init titlescreen done.
+[2026-11-04T04:52:01Z INFO  game::console] MBOX loading(12): select/objects.ps2 [Time=250]
+[2026-11-04T04:52:01Z INFO  game::console] MBOX loading(12): select/textures.ps2 [Time=250]
+[2026-11-04T04:52:01Z INFO  game::console] MBOX loading(12) select: done [TIME=250]
+[2026-11-04T04:52:01Z INFO  game::audio] [audio] peak level over last second: 15392
+[2026-11-04T04:52:02Z INFO  game::audio] [audio] peak level over last second: 22652
+[2026-11-04T04:52:02Z INFO  game::gx_render] [gx] render: 452.339µs per presented frame
+[2026-11-04T04:52:02Z INFO  game::gx_host] [gx] frame 240: 25 draws, 100 vertices, 25 texture binds; per frame: fifo 33.938µs, convert 227.391µs, wall 18.350419ms (gap 16.1ms..133.6ms), decodes 0
+[2026-11-04T04:52:02Z INFO  game::console] Starting wave 3328... MEM=10051392
+[2026-11-04T04:52:02Z INFO  game::console]   Worlds... MEM=10051008
+[2026-11-04T04:52:02Z INFO  game::console]   Enemies... MEM=10051008
+[2026-11-04T04:52:02Z INFO  game::console]   Items... MEM=10051008
+[2026-11-04T04:52:02Z INFO  game::console]   Critters... MEM=10051008
+[2026-11-04T04:52:02Z INFO  game::console]   Game... MEM=10051008
+[2026-11-04T04:52:02Z INFO  game::console] 
+[2026-11-04T04:52:02Z INFO  game::console] --> ERROR: UNABLE TO FIND SOUND: S_L1NAME
+[2026-11-04T04:52:02Z INFO  game::console] 
+[2026-11-04T04:52:02Z INFO  game::console] 
+[2026-11-04T04:52:02Z INFO  game::console] --> ERROR: UNABLE TO FIND SOUND: S_L2NAME
+[2026-11-04T04:52:02Z INFO  game::console] 
+[2026-11-04T04:52:02Z INFO  game::console]   Done. MEM=10050368
+[2026-11-04T04:52:02Z INFO  game::console] ==== ALLOC FILE=fonts/shopatt9.fnt, MEM:010441k -> 010441k [0k]
+[2026-11-04T04:52:02Z INFO  game::console] ==== ALLOC FILE=shpdata/shop.wad, MEM:010443k -> 010446k [2k]
+[2026-11-04T04:52:02Z INFO  game::console] ==== ALLOC model[13]=items/levelL    , MEM:010446k -> 011452K  [GEO=857K TEX=149K]
+[2026-11-04T04:52:02Z INFO  game::console] === LFIXED model[13]=items/levelL   , size=0x000d6400
+[2026-11-04T04:52:02Z INFO  game::console] ==== ALLOC FILE=items/levelL/anim, MEM:011452k -> 011737k [284k]
+[2026-11-04T04:52:02Z INFO  game::console] ==== ALLOC model[14]=levels/levelL1  , MEM:011737k -> 017223K  [GEO=2831K TEX=2654K]
+[2026-11-04T04:52:02Z INFO  game::console] ----- WORLD levels/levelL1, MEM: 17636576 -> 18897792  [WORLD=1231K]
+[2026-11-04T04:52:02Z INFO  game::console] ============ BGLOAD model[14]=levels/levelL1 alloc=2c3e00
+[2026-11-04T04:52:02Z INFO  game::console] MBOX loading(14): levels/levelL1/objects.ps2 [Time=17]
+[2026-11-04T04:52:02Z INFO  game::console] MBOX loading(14): levels/levelL1/textures.ps2 [Time=17]
+[2026-11-04T04:52:02Z INFO  game::console] MBOX loading(14) levels/levelL1: done [TIME=17]
+[2026-11-04T04:52:03Z INFO  game::audio] [audio] peak level over last second: 22949
+[2026-11-04T04:52:04Z INFO  game::audio] [audio] peak level over last second: 10345
+[2026-11-04T04:52:04Z INFO  game::gx_render] [gx] render: 415.101µs per presented frame
+[2026-11-04T04:52:04Z INFO  game::gx_host] [gx] frame 360: 50 draws, 200 vertices, 50 texture binds; per frame: fifo 47.531µs, convert 92.946µs, wall 16.68396ms (gap 16.1ms..17.4ms), decodes 0
+[2026-11-04T04:52:05Z INFO  game::audio] [audio] peak level over last second: 10071
+[2026-11-04T04:52:06Z INFO  game::console] Control 0 has S_COMBO_MOVE pressed.
+[2026-11-04T04:52:06Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:52:06Z INFO  game::audio] [audio] peak level over last second: 23301
+[2026-11-04T04:52:06Z INFO  game::gx_render] [gx] render: 424.772µs per presented frame
+[2026-11-04T04:52:06Z INFO  game::gx_host] [gx] frame 480: 75 draws, 300 vertices, 75 texture binds; per frame: fifo 51.505µs, convert 86.944µs, wall 16.684393ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:52:07Z INFO  game::audio] [audio] peak level over last second: 18040
+[2026-11-04T04:52:08Z INFO  game::audio] [audio] peak level over last second: 19143
+[2026-11-04T04:52:08Z INFO  game::gx_render] [gx] render: 423.3µs per presented frame
+[2026-11-04T04:52:08Z INFO  game::gx_host] [gx] frame 600: 75 draws, 300 vertices, 75 texture binds; per frame: fifo 67.565µs, convert 96.739µs, wall 16.681004ms (gap 16.2ms..17.0ms), decodes 0
+[2026-11-04T04:52:09Z INFO  game::audio] [audio] peak level over last second: 17463
+[2026-11-04T04:52:10Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:52:10Z INFO  game::audio] [audio] peak level over last second: 21954
+[2026-11-04T04:52:10Z INFO  game::gx_render] [gx] render: 435.05µs per presented frame
+[2026-11-04T04:52:10Z INFO  game::gx_host] [gx] frame 720: 69 draws, 276 vertices, 69 texture binds; per frame: fifo 67.8µs, convert 96.896µs, wall 16.684164ms (gap 16.2ms..17.3ms), decodes 0
+[2026-11-04T04:52:10Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:52:11Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:52:11Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:52:11Z INFO  game::audio] [audio] peak level over last second: 21695
+[2026-11-04T04:52:12Z INFO  game::audio] [audio] peak level over last second: 15342
+[2026-11-04T04:52:12Z INFO  game::gx_render] [gx] render: 481.485µs per presented frame
+[2026-11-04T04:52:12Z INFO  game::gx_host] [gx] frame 840: 102 draws, 408 vertices, 102 texture binds; per frame: fifo 87.412µs, convert 120.052µs, wall 16.683402ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:52:12Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:52:13Z INFO  game::audio] [audio] peak level over last second: 24329
+[2026-11-04T04:52:14Z INFO  game::console] ---- ALLOC World Data [54K]
+[2026-11-04T04:52:14Z INFO  game::console] ---- ALLOC World Save State [52K]
+[2026-11-04T04:52:14Z INFO  game::console] 
+[2026-11-04T04:52:14Z INFO  game::console] --> ERROR: Trigger id 0: no next 104
+[2026-11-04T04:52:14Z INFO  game::console] 
+[2026-11-04T04:52:14Z INFO  game::console] --> ERROR: Trigger id 0: no next 104
+[2026-11-04T04:52:14Z INFO  game::console] 
+[2026-11-04T04:52:14Z INFO  game::console] --> ERROR: Trigger id 0: no next 104
+[2026-11-04T04:52:14Z INFO  game::console] ==== ALLOC model[15]=INVENTORY       , MEM:019427k -> 019489K  [GEO=4K TEX=57K]
+[2026-11-04T04:52:14Z INFO  game::console] === LFIXED model[15]=INVENTORY      , size=0x00001100
+[2026-11-04T04:52:14Z INFO  game::console] ==== ALLOC FILE=shpdata/shop.wad, MEM:019489k -> 019491k [2k]
+[2026-11-04T04:52:14Z INFO  game::console] 
+[2026-11-04T04:52:14Z INFO  game::console] --> ERROR: No Exit Obj: L1NSNCF1_ACTIVE
+[2026-11-04T04:52:14Z INFO  game::console] 
+[2026-11-04T04:52:14Z INFO  game::console] --> ERROR: No Exit Obj: L1NSNCE1_ACTIVE
+[2026-11-04T04:52:14Z INFO  game::console] 
+[2026-11-04T04:52:14Z INFO  game::console] --> ERROR: No Exit Obj: L1NSNCH4_ACTIVE
+[2026-11-04T04:52:14Z INFO  game::console] === LFIXED model[1]=players/jes/yel00, size=0x0000b800
+[2026-11-04T04:52:14Z INFO  game::console] === LFIXED model[2]=players/jes/sfxyel, size=0x0002bc00
+[2026-11-04T04:52:14Z INFO  game::audio] [audio] peak level over last second: 22959
+[2026-11-04T04:52:15Z INFO  game::audio] [audio] peak level over last second: 20592
+[2026-11-04T04:52:16Z INFO  game::audio] [audio] peak level over last second: 10306
+[2026-11-04T04:52:17Z INFO  game::audio] [audio] peak level over last second: 10141
+[2026-11-04T04:52:18Z INFO  game::audio] [audio] peak level over last second: 10187
+[2026-11-04T04:52:19Z INFO  game::audio] [audio] peak level over last second: 10215
+[2026-11-04T04:52:20Z INFO  game::audio] [audio] peak level over last second: 10242
+[2026-11-04T04:52:21Z INFO  game::audio] [audio] peak level over last second: 10146
+[2026-11-04T04:52:22Z INFO  game::audio] [audio] peak level over last second: 10292
+[2026-11-04T04:52:23Z INFO  game::audio] [audio] peak level over last second: 10164
+[2026-11-04T04:52:24Z INFO  game::audio] [audio] peak level over last second: 10136
+[2026-11-04T04:52:25Z INFO  game::audio] [audio] peak level over last second: 10292
+[2026-11-04T04:52:26Z INFO  game::audio] [audio] peak level over last second: 10164
+[2026-11-04T04:52:27Z INFO  game::audio] [audio] peak level over last second: 10136
+[2026-11-04T04:52:28Z INFO  game::audio] [audio] peak level over last second: 10345
+[2026-11-04T04:52:29Z INFO  game::audio] [audio] peak level over last second: 10098
+[2026-11-04T04:52:30Z INFO  game::audio] [audio] peak level over last second: 10122
+[2026-11-04T04:52:31Z INFO  game::audio] [audio] peak level over last second: 10160
+[2026-11-04T04:52:32Z INFO  game::audio] [audio] peak level over last second: 10157
+[2026-11-04T04:52:33Z INFO  game::audio] [audio] peak level over last second: 10077
+[2026-11-04T04:52:34Z INFO  game::audio] [audio] peak level over last second: 10262
+[2026-11-04T04:52:35Z INFO  game::audio] [audio] peak level over last second: 10159
+[2026-11-04T04:52:36Z INFO  game::console] 
+[2026-11-04T04:52:36Z INFO  game::console] --> ERROR: Audio Play Timeout
+[2026-11-04T04:52:36Z INFO  game::console] AudioUnloadPart skipped bank, still in use
+[2026-11-04T04:52:36Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:52:36Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:52:36Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:52:36Z INFO  game::console] OTHER:         12018992
+[2026-11-04T04:52:36Z INFO  game::console] WORLD (COL):    1256352
+[2026-11-04T04:52:36Z INFO  game::console] WORLDNODES:           0
+[2026-11-04T04:52:36Z INFO  game::console] WORLDOBJECTS:   5617584
+[2026-11-04T04:52:36Z INFO  game::console] WORLDANIM:         4864
+[2026-11-04T04:52:36Z INFO  game::console] ITEMS:                0
+[2026-11-04T04:52:36Z INFO  game::console] WEAPONS:              0
+[2026-11-04T04:52:36Z INFO  game::console] ENEMIES:              0
+[2026-11-04T04:52:36Z INFO  game::console]                --------
+[2026-11-04T04:52:36Z INFO  game::console] TOTAL:         19964480
+[2026-11-04T04:52:36Z INFO  game::audio] [audio] peak level over last second: 10142
+[2026-11-04T04:52:37Z INFO  game::audio] [audio] peak level over last second: 18400
+[2026-11-04T04:52:37Z INFO  game::gx_render] [gx] render: 5.334139ms per presented frame
+[2026-11-04T04:52:37Z INFO  game::gx_host] [gx] frame 960: 7566 draws, 34151 vertices, 12362 texture binds; per frame: fifo 883.835µs, convert 1.650135ms, wall 206.457045ms (gap 16.2ms..22.2s), decodes 2
+[2026-11-04T04:52:38Z INFO  game::audio] [audio] peak level over last second: 18064
+[2026-11-04T04:52:39Z INFO  game::audio] [audio] peak level over last second: 12001
+[2026-11-04T04:52:40Z INFO  game::audio] [audio] peak level over last second: 7393
+[2026-11-04T04:52:41Z INFO  game::audio] [audio] peak level over last second: 2344
+[2026-11-04T04:52:41Z INFO  game::gx_render] [gx] render: 15.900767ms per presented frame
+[2026-11-04T04:52:41Z INFO  game::gx_host] [gx] frame 1080: 7060 draws, 32228 vertices, 11204 texture binds; per frame: fifo 2.59429ms, convert 4.682339ms, wall 33.367567ms (gap 32.8ms..34.1ms), decodes 0
+[2026-11-04T04:52:42Z INFO  game::audio] [audio] peak level over last second: 4283
+[2026-11-04T04:52:43Z INFO  game::audio] [audio] peak level over last second: 5980
+[2026-11-04T04:52:44Z INFO  game::audio] [audio] peak level over last second: 6652
+[2026-11-04T04:52:45Z INFO  game::hle] [vi] 600 retraces in 36.5754582s (16.4 Hz), waiting 21%
+[2026-11-04T04:52:45Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:45Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:45Z INFO  game::audio] [audio] peak level over last second: 7100
+[2026-11-04T04:52:45Z INFO  game::gx_render] [gx] render: 14.884311ms per presented frame
+[2026-11-04T04:52:45Z INFO  game::gx_host] [gx] frame 1200: 7136 draws, 32532 vertices, 11280 texture binds; per frame: fifo 2.522138ms, convert 4.444976ms, wall 33.367539ms (gap 33.0ms..33.8ms), decodes 0
+[2026-11-04T04:52:45Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:45Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:45Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:45Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:46Z INFO  game::audio] [audio] peak level over last second: 5646
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:52:46Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:52:47Z INFO  game::audio] [audio] peak level over last second: 14180
+[2026-11-04T04:52:48Z INFO  game::audio] [audio] peak level over last second: 13910
+[2026-11-04T04:52:49Z INFO  game::audio] [audio] peak level over last second: 6048
+[2026-11-04T04:52:49Z INFO  game::gx_render] [gx] render: 14.792985ms per presented frame
+[2026-11-04T04:52:49Z INFO  game::gx_host] [gx] frame 1320: 6608 draws, 30621 vertices, 10602 texture binds; per frame: fifo 2.439253ms, convert 4.394095ms, wall 33.363865ms (gap 32.8ms..33.9ms), decodes 0
+[2026-11-04T04:52:50Z INFO  game::audio] [audio] peak level over last second: 5822
+[2026-11-04T04:52:51Z INFO  game::audio] [audio] peak level over last second: 6356
+[2026-11-04T04:52:52Z INFO  game::audio] [audio] peak level over last second: 6774
+[2026-11-04T04:52:53Z INFO  game::audio] [audio] peak level over last second: 6696
+[2026-11-04T04:52:53Z INFO  game::gx_render] [gx] render: 14.958814ms per presented frame
+[2026-11-04T04:52:53Z INFO  game::gx_host] [gx] frame 1440: 6751 draws, 31082 vertices, 10761 texture binds; per frame: fifo 2.376041ms, convert 4.296461ms, wall 33.367098ms (gap 32.8ms..34.0ms), decodes 0
+[2026-11-04T04:52:54Z INFO  game::audio] [audio] peak level over last second: 15901
+[2026-11-04T04:52:55Z INFO  game::audio] [audio] peak level over last second: 14666
+[2026-11-04T04:52:56Z INFO  game::audio] [audio] peak level over last second: 22461
+[2026-11-04T04:52:57Z INFO  game::audio] [audio] peak level over last second: 27195
+[2026-11-04T04:52:57Z INFO  game::gx_render] [gx] render: 12.618697ms per presented frame
+[2026-11-04T04:52:57Z INFO  game::gx_host] [gx] frame 1560: 5009 draws, 24033 vertices, 8024 texture binds; per frame: fifo 2.219277ms, convert 3.952826ms, wall 32.830617ms (gap 19.3ms..33.8ms), decodes 0
+[2026-11-04T04:52:58Z INFO  game::audio] [audio] peak level over last second: 22299
+[2026-11-04T04:52:59Z INFO  game::audio] [audio] peak level over last second: 16391
+[2026-11-04T04:52:59Z INFO  game::gx_render] [gx] render: 8.570906ms per presented frame
+[2026-11-04T04:52:59Z INFO  game::gx_host] [gx] frame 1680: 4733 draws, 22839 vertices, 7279 texture binds; per frame: fifo 1.523032ms, convert 2.59414ms, wall 17.92293ms (gap 15.0ms..31.5ms), decodes 0
+[2026-11-04T04:53:00Z INFO  game::audio] [audio] peak level over last second: 15356
+[2026-11-04T04:53:01Z INFO  game::audio] [audio] peak level over last second: 15130
+[2026-11-04T04:53:02Z INFO  game::hle] [vi] 600 retraces in 17.0808758s (35.1 Hz), waiting 26%
+[2026-11-04T04:53:02Z INFO  game::gx_render] [gx] render: 10.346252ms per presented frame
+[2026-11-04T04:53:02Z INFO  game::gx_host] [gx] frame 1800: 4690 draws, 22271 vertices, 7638 texture binds; per frame: fifo 1.858702ms, convert 3.260796ms, wall 23.207856ms (gap 16.6ms..33.5ms), decodes 0
+[2026-11-04T04:53:02Z INFO  game::audio] [audio] peak level over last second: 21503
+[2026-11-04T04:53:03Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:03Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:53:03Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:53:03Z INFO  game::audio] [audio] peak level over last second: 24842
+[2026-11-04T04:53:04Z INFO  game::gx_render] [gx] render: 9.109515ms per presented frame
+[2026-11-04T04:53:04Z INFO  game::gx_host] [gx] frame 1920: 4120 draws, 20142 vertices, 6616 texture binds; per frame: fifo 1.731429ms, convert 2.966165ms, wall 16.683783ms (gap 15.9ms..17.4ms), decodes 0
+[2026-11-04T04:53:04Z INFO  game::audio] [audio] peak level over last second: 16142
+[2026-11-04T04:53:05Z INFO  game::audio] [audio] peak level over last second: 12272
+[2026-11-04T04:53:06Z INFO  game::gx_render] [gx] render: 7.24117ms per presented frame
+[2026-11-04T04:53:06Z INFO  game::gx_host] [gx] frame 2040: 2679 draws, 13048 vertices, 4224 texture binds; per frame: fifo 1.284124ms, convert 2.24478ms, wall 16.682118ms (gap 14.4ms..18.6ms), decodes 0
+[2026-11-04T04:53:06Z INFO  game::audio] [audio] peak level over last second: 21672
+[2026-11-04T04:53:07Z INFO  game::audio] [audio] peak level over last second: 10649
+[2026-11-04T04:53:08Z INFO  game::gx_render] [gx] render: 4.317715ms per presented frame
+[2026-11-04T04:53:08Z INFO  game::gx_host] [gx] frame 2160: 1906 draws, 9339 vertices, 2791 texture binds; per frame: fifo 860.968µs, convert 1.499954ms, wall 16.681147ms (gap 16.2ms..17.5ms), decodes 0
+[2026-11-04T04:53:08Z INFO  game::audio] [audio] peak level over last second: 22901
+[2026-11-04T04:53:09Z INFO  game::audio] [audio] peak level over last second: 23334
+[2026-11-04T04:53:09Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:10Z INFO  game::gx_render] [gx] render: 3.054101ms per presented frame
+[2026-11-04T04:53:10Z INFO  game::gx_host] [gx] frame 2280: 1319 draws, 6556 vertices, 1692 texture binds; per frame: fifo 565.85µs, convert 944.966µs, wall 16.685232ms (gap 16.2ms..17.4ms), decodes 0
+[2026-11-04T04:53:10Z INFO  game::audio] [audio] peak level over last second: 17318
+[2026-11-04T04:53:11Z INFO  game::audio] [audio] peak level over last second: 19411
+[2026-11-04T04:53:12Z INFO  game::hle] [vi] 600 retraces in 10.0306034s (59.8 Hz), waiting 32%
+[2026-11-04T04:53:12Z INFO  game::gx_render] [gx] render: 2.938011ms per presented frame
+[2026-11-04T04:53:12Z INFO  game::gx_host] [gx] frame 2400: 1328 draws, 6602 vertices, 1710 texture binds; per frame: fifo 532.455µs, convert 886.098µs, wall 16.68324ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:12Z INFO  game::audio] [audio] peak level over last second: 23852
+[2026-11-04T04:53:13Z INFO  game::audio] [audio] peak level over last second: 22543
+[2026-11-04T04:53:14Z INFO  game::gx_render] [gx] render: 2.845213ms per presented frame
+[2026-11-04T04:53:14Z INFO  game::gx_host] [gx] frame 2520: 1259 draws, 6315 vertices, 1759 texture binds; per frame: fifo 509.384µs, convert 840.869µs, wall 16.683867ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:14Z INFO  game::audio] [audio] peak level over last second: 24625
+[2026-11-04T04:53:15Z INFO  game::audio] [audio] peak level over last second: 23581
+[2026-11-04T04:53:16Z INFO  game::console] DCSERROR: Ads HARD shutdown
+[2026-11-04T04:53:16Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:53:16Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:53:16Z INFO  game::console] Starting wave -2... MEM=774256
+[2026-11-04T04:53:16Z INFO  game::console]   Worlds... MEM=14262864
+[2026-11-04T04:53:16Z INFO  game::console]   Enemies... MEM=14262864
+[2026-11-04T04:53:16Z INFO  game::console]   Items... MEM=14262864
+[2026-11-04T04:53:16Z INFO  game::console]   Critters... MEM=14262864
+[2026-11-04T04:53:16Z INFO  game::console]   Game... MEM=14262864
+[2026-11-04T04:53:16Z INFO  game::console]   Done. MEM=14262224
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC model[11]=levels/levelG1  , MEM:006327k -> 008064K  [GEO=484K TEX=1252K]
+[2026-11-04T04:53:16Z INFO  game::console] ----- WORLD levels/levelG1, MEM: 8258048 -> 8669728  [WORLD=402K]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC model[12]=monsters/zom    , MEM:008466k -> 011189K  [GEO=2590K TEX=132K]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC model[13]=monsters/mag    , MEM:011207k -> 011369K  [GEO=132K TEX=28K]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC FILE=critter/golem.wad, MEM:011374k -> 011378k [4k]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC FILE=critter/general.wad, MEM:011378k -> 011383k [4k]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC FILE=critter/gar_serp.wad, MEM:011383k -> 011387k [4k]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC model[14]=monsters/death  , MEM:011387k -> 011499K  [GEO=29K TEX=82K]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC model[15]=monsters/golem/levelG, MEM:011507k -> 012072K  [GEO=480K TEX=83K]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC model[16]=monsters/general/levelG, MEM:012108k -> 012194K  [GEO=16K TEX=70K]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC model[17]=monsters/gar_serp, MEM:012236k -> 012493K  [GEO=34K TEX=222K]
+[2026-11-04T04:53:16Z INFO  game::console] ==== ALLOC model[18]=maps/levelG1    , MEM:012555k -> 012961K  [GEO=1K TEX=404K]
+[2026-11-04T04:53:16Z INFO  game::console] === LFIXED model[18]=maps/levelG1   , size=0x00000600
+[2026-11-04T04:53:16Z INFO  game::console] ============ BGLOAD model[11]=levels/levelG1 alloc=79200
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(11): levels/levelG1/objects.ps2 [Time=67]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(11): levels/levelG1/textures.ps2 [Time=67]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(11) levels/levelG1: done [TIME=67]
+[2026-11-04T04:53:16Z INFO  game::console] ============ BGLOAD model[12]=monsters/zom alloc=287a00
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(12): monsters/zom/objects.ps2 [Time=150]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(12): monsters/zom/textures.ps2 [Time=150]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(12) monsters/zom: done [TIME=150]
+[2026-11-04T04:53:16Z INFO  game::console] ============ BGLOAD model[13]=monsters/mag alloc=21300
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(13): monsters/mag/objects.ps2 [Time=183]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(13): monsters/mag/textures.ps2 [Time=183]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(13) monsters/mag: done [TIME=183]
+[2026-11-04T04:53:16Z INFO  game::gx_render] [gx] render: 2.421265ms per presented frame
+[2026-11-04T04:53:16Z INFO  game::gx_host] [gx] frame 2640: 37 draws, 148 vertices, 37 texture binds; per frame: fifo 402.775µs, convert 723.065µs, wall 16.958585ms (gap 16.3ms..50.2ms), decodes 0
+[2026-11-04T04:53:16Z INFO  game::audio] [audio] peak level over last second: 22323
+[2026-11-04T04:53:16Z INFO  game::console] ============ BGLOAD model[14]=monsters/death alloc=7600
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(14): monsters/death/objects.ps2 [Time=283]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(14): monsters/death/textures.ps2 [Time=283]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(14) monsters/death: done [TIME=283]
+[2026-11-04T04:53:16Z INFO  game::console] ============ BGLOAD model[15]=monsters/golem/levelG alloc=78300
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(15): monsters/golem/levelG/objects.ps2 [Time=367]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(15): monsters/golem/levelG/textures.ps2 [Time=367]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(15) monsters/golem/levelG: done [TIME=367]
+[2026-11-04T04:53:16Z INFO  game::console] ============ BGLOAD model[16]=monsters/general/levelG alloc=4200
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(16): monsters/general/levelG/objects.ps2 [Time=400]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(16): monsters/general/levelG/textures.ps2 [Time=400]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(16) monsters/general/levelG: done [TIME=400]
+[2026-11-04T04:53:16Z INFO  game::console] ============ BGLOAD model[17]=monsters/gar_serp alloc=8b00
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(17): monsters/gar_serp/objects.ps2 [Time=433]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(17): monsters/gar_serp/textures.ps2 [Time=433]
+[2026-11-04T04:53:16Z INFO  game::console] MBOX loading(17) monsters/gar_serp: done [TIME=433]
+[2026-11-04T04:53:16Z INFO  game::console] 
+[2026-11-04T04:53:16Z INFO  game::console] --> ERROR: AtreeFindNodeIdx can not find node HEAD
+[2026-11-04T04:53:16Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:17Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:17Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:17Z INFO  game::audio] [audio] peak level over last second: 22707
+[2026-11-04T04:53:18Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:18Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:18Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:18Z INFO  game::gx_render] [gx] render: 415.285µs per presented frame
+[2026-11-04T04:53:18Z INFO  game::gx_host] [gx] frame 2760: 37 draws, 148 vertices, 37 texture binds; per frame: fifo 38.914µs, convert 106.855µs, wall 16.685224ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:53:18Z INFO  game::audio] [audio] peak level over last second: 22484
+[2026-11-04T04:53:18Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:19Z INFO  game::audio] [audio] peak level over last second: 22529
+[2026-11-04T04:53:19Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:19Z INFO  game::console] DCS: Bank type 1.006,  made with VAGBANK v1.007
+[2026-11-04T04:53:20Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:20Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:20Z INFO  game::audio] [audio] peak level over last second: 18325
+[2026-11-04T04:53:20Z INFO  game::gx_render] [gx] render: 471.785µs per presented frame
+[2026-11-04T04:53:20Z INFO  game::gx_host] [gx] frame 2880: 37 draws, 148 vertices, 37 texture binds; per frame: fifo 40.483µs, convert 108.427µs, wall 17.10099ms (gap 16.1ms..66.7ms), decodes 0
+[2026-11-04T04:53:20Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:21Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:21Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:21Z INFO  game::audio] [audio] peak level over last second: 0
+[2026-11-04T04:53:21Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:21Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:22Z INFO  game::hle] [vi] 600 retraces in 10.0868901s (59.5 Hz), waiting 80%
+[2026-11-04T04:53:22Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:22Z INFO  game::audio] [audio] peak level over last second: 0
+[2026-11-04T04:53:22Z INFO  game::gx_render] [gx] render: 457.641µs per presented frame
+[2026-11-04T04:53:22Z INFO  game::gx_host] [gx] frame 3000: 57 draws, 228 vertices, 57 texture binds; per frame: fifo 53.281µs, convert 127.231µs, wall 16.681464ms (gap 16.1ms..17.2ms), decodes 0
+[2026-11-04T04:53:22Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:22Z INFO  game::console] DCSERROR: Ads HARD shutdown
+[2026-11-04T04:53:22Z INFO  game::console] ---- ALLOC World Data [14K]
+[2026-11-04T04:53:22Z INFO  game::console] ---- ALLOC World Save State [21K]
+[2026-11-04T04:53:22Z INFO  game::console] ==== ALLOC model[18]=items/levelG    , MEM:013423k -> 013953K  [GEO=234K TEX=295K]
+[2026-11-04T04:53:22Z INFO  game::console] === LFIXED model[18]=items/levelG   , size=0x0003ab00
+[2026-11-04T04:53:22Z INFO  game::console] ==== ALLOC FILE=items/levelG/anim, MEM:013953k -> 014018k [65k]
+[2026-11-04T04:53:22Z INFO  game::console] ==== ALLOC model[19]=INVENTORY       , MEM:014472k -> 014533K  [GEO=4K TEX=57K]
+[2026-11-04T04:53:22Z INFO  game::console] === LFIXED model[19]=INVENTORY      , size=0x00001100
+[2026-11-04T04:53:22Z INFO  game::console] ==== ALLOC FILE=shpdata/shop.wad, MEM:014533k -> 014536k [2k]
+[2026-11-04T04:53:22Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:22Z INFO  game::console] OTHER:          6479856
+[2026-11-04T04:53:22Z INFO  game::console] WORLD (COL):     410688
+[2026-11-04T04:53:22Z INFO  game::console] WORLDNODES:           0
+[2026-11-04T04:53:22Z INFO  game::console] WORLDOBJECTS:   1778192
+[2026-11-04T04:53:22Z INFO  game::console] WORLDANIM:          992
+[2026-11-04T04:53:22Z INFO  game::console] ITEMS:           609408
+[2026-11-04T04:53:22Z INFO  game::console] WEAPONS:              0
+[2026-11-04T04:53:22Z INFO  game::console] ENEMIES:        3099984
+[2026-11-04T04:53:22Z INFO  game::console]   ZOMBIE    2807008
+[2026-11-04T04:53:22Z INFO  game::console]   MAGGOT     170272
+[2026-11-04T04:53:22Z INFO  game::console]   GOLEM           0
+[2026-11-04T04:53:22Z INFO  game::console]   GENERAL         0
+[2026-11-04T04:53:22Z INFO  game::console]   GARGOYLE        0
+[2026-11-04T04:53:22Z INFO  game::console]   DEATH      122704
+[2026-11-04T04:53:22Z INFO  game::console]                --------
+[2026-11-04T04:53:22Z INFO  game::console] TOTAL:         14891456
+[2026-11-04T04:53:23Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:23Z INFO  game::audio] [audio] peak level over last second: 25426
+[2026-11-04T04:53:23Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:23Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:23Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:24Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:24Z INFO  game::audio] [audio] peak level over last second: 25171
+[2026-11-04T04:53:24Z INFO  game::gx_render] [gx] render: 1.803768ms per presented frame
+[2026-11-04T04:53:24Z INFO  game::gx_host] [gx] frame 3120: 851 draws, 4353 vertices, 1260 texture binds; per frame: fifo 364.21µs, convert 626.073µs, wall 16.823247ms (gap 16.2ms..33.6ms), decodes 0
+[2026-11-04T04:53:24Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:24Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:25Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:25Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:25Z INFO  game::audio] [audio] peak level over last second: 19407
+[2026-11-04T04:53:25Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:25Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:53:26Z INFO  game::audio] [audio] peak level over last second: 13546
+[2026-11-04T04:53:26Z INFO  game::gx_render] [gx] render: 1.973101ms per presented frame
+[2026-11-04T04:53:26Z INFO  game::gx_host] [gx] frame 3240: 885 draws, 4546 vertices, 1296 texture binds; per frame: fifo 412.571µs, convert 626.458µs, wall 16.6796ms (gap 15.9ms..17.6ms), decodes 0
+[2026-11-04T04:53:26Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:27Z INFO  game::audio] [audio] peak level over last second: 18891
+[2026-11-04T04:53:28Z INFO  game::audio] [audio] peak level over last second: 29479
+[2026-11-04T04:53:28Z INFO  game::gx_render] [gx] render: 2.160639ms per presented frame
+[2026-11-04T04:53:28Z INFO  game::gx_host] [gx] frame 3360: 977 draws, 4905 vertices, 1382 texture binds; per frame: fifo 468.098µs, convert 688.376µs, wall 16.687425ms (gap 16.2ms..17.3ms), decodes 0
+[2026-11-04T04:53:29Z INFO  game::audio] [audio] peak level over last second: 32144
+[2026-11-04T04:53:30Z INFO  game::audio] [audio] peak level over last second: 18356
+[2026-11-04T04:53:30Z INFO  game::gx_render] [gx] render: 2.064159ms per presented frame
+[2026-11-04T04:53:30Z INFO  game::gx_host] [gx] frame 3480: 858 draws, 4351 vertices, 1263 texture binds; per frame: fifo 460.858µs, convert 666.23µs, wall 16.67921ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:31Z INFO  game::audio] [audio] peak level over last second: 27630
+[2026-11-04T04:53:31Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:32Z INFO  game::hle] [vi] 600 retraces in 10.0315778s (59.8 Hz), waiting 65%
+[2026-11-04T04:53:32Z INFO  game::audio] [audio] peak level over last second: 26644
+[2026-11-04T04:53:32Z INFO  game::gx_render] [gx] render: 1.886877ms per presented frame
+[2026-11-04T04:53:32Z INFO  game::gx_host] [gx] frame 3600: 816 draws, 4120 vertices, 1217 texture binds; per frame: fifo 416.9µs, convert 613.948µs, wall 16.685416ms (gap 16.1ms..17.3ms), decodes 0
+[2026-11-04T04:53:33Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:33Z INFO  game::audio] [audio] peak level over last second: 32767
+[2026-11-04T04:53:34Z INFO  game::audio] [audio] peak level over last second: 29525
+[2026-11-04T04:53:34Z INFO  game::gx_render] [gx] render: 1.929025ms per presented frame
+[2026-11-04T04:53:34Z INFO  game::gx_host] [gx] frame 3720: 830 draws, 4155 vertices, 1253 texture binds; per frame: fifo 433.955µs, convert 633.07µs, wall 16.683147ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:35Z INFO  game::audio] [audio] peak level over last second: 28412
+[2026-11-04T04:53:35Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:36Z INFO  game::audio] [audio] peak level over last second: 30218
+[2026-11-04T04:53:36Z INFO  game::gx_render] [gx] render: 2.025538ms per presented frame
+[2026-11-04T04:53:36Z INFO  game::gx_host] [gx] frame 3840: 916 draws, 4704 vertices, 1381 texture binds; per frame: fifo 464.359µs, convert 674.743µs, wall 16.682443ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:37Z INFO  game::audio] [audio] peak level over last second: 19537
+[2026-11-04T04:53:37Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:38Z INFO  game::audio] [audio] peak level over last second: 27805
+[2026-11-04T04:53:38Z INFO  game::gx_render] [gx] render: 2.366491ms per presented frame
+[2026-11-04T04:53:38Z INFO  game::gx_host] [gx] frame 3960: 1180 draws, 5963 vertices, 1682 texture binds; per frame: fifo 559.21µs, convert 791.881µs, wall 16.683012ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:53:39Z INFO  game::audio] [audio] peak level over last second: 19864
+[2026-11-04T04:53:40Z INFO  game::audio] [audio] peak level over last second: 25060
+[2026-11-04T04:53:40Z INFO  game::gx_render] [gx] render: 3.253008ms per presented frame
+[2026-11-04T04:53:40Z INFO  game::gx_host] [gx] frame 4080: 1900 draws, 9589 vertices, 2617 texture binds; per frame: fifo 711.69µs, convert 1.018812ms, wall 16.683419ms (gap 16.1ms..17.1ms), decodes 0
+[2026-11-04T04:53:40Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:53:41Z INFO  game::audio] [audio] peak level over last second: 18221
+[2026-11-04T04:53:42Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:42Z INFO  game::hle] [vi] 600 retraces in 10.0128267s (59.9 Hz), waiting 56%
+[2026-11-04T04:53:42Z INFO  game::audio] [audio] peak level over last second: 21130
+[2026-11-04T04:53:42Z INFO  game::gx_render] [gx] render: 3.980244ms per presented frame
+[2026-11-04T04:53:42Z INFO  game::gx_host] [gx] frame 4200: 1616 draws, 8199 vertices, 2108 texture binds; per frame: fifo 780.15µs, convert 1.103459ms, wall 16.682875ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:43Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:53:44Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:53:44Z INFO  game::gx_render] [gx] render: 4.118698ms per presented frame
+[2026-11-04T04:53:44Z INFO  game::gx_host] [gx] frame 4320: 1558 draws, 7932 vertices, 2024 texture binds; per frame: fifo 779.796µs, convert 1.125337ms, wall 16.682338ms (gap 16.2ms..17.3ms), decodes 0
+[2026-11-04T04:53:45Z INFO  game::audio] [audio] peak level over last second: 29493
+[2026-11-04T04:53:45Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:46Z INFO  game::audio] [audio] peak level over last second: 21408
+[2026-11-04T04:53:46Z INFO  game::gx_render] [gx] render: 4.103476ms per presented frame
+[2026-11-04T04:53:46Z INFO  game::gx_host] [gx] frame 4440: 1749 draws, 8805 vertices, 2206 texture binds; per frame: fifo 767.447µs, convert 1.137642ms, wall 16.683125ms (gap 16.1ms..17.3ms), decodes 0
+[2026-11-04T04:53:47Z INFO  game::audio] [audio] peak level over last second: 32761
+[2026-11-04T04:53:48Z INFO  game::audio] [audio] peak level over last second: 32591
+[2026-11-04T04:53:48Z INFO  game::gx_render] [gx] render: 4.276832ms per presented frame
+[2026-11-04T04:53:48Z INFO  game::gx_host] [gx] frame 4560: 1657 draws, 8346 vertices, 2122 texture binds; per frame: fifo 808.267µs, convert 1.181386ms, wall 16.683146ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:53:49Z INFO  game::audio] [audio] peak level over last second: 28785
+[2026-11-04T04:53:50Z INFO  game::audio] [audio] peak level over last second: 30174
+[2026-11-04T04:53:50Z INFO  game::gx_render] [gx] render: 3.816246ms per presented frame
+[2026-11-04T04:53:50Z INFO  game::gx_host] [gx] frame 4680: 1545 draws, 7809 vertices, 1991 texture binds; per frame: fifo 719.456µs, convert 1.062589ms, wall 16.68443ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:50Z INFO  game::console] Control 0 has S_ATK_SLOW pressed.
+[2026-11-04T04:53:51Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:53:51Z INFO  game::console] Control 0 has S_MAGIC pressed.
+[2026-11-04T04:53:52Z INFO  game::hle] [vi] 600 retraces in 10.0105319s (59.9 Hz), waiting 45%
+[2026-11-04T04:53:52Z INFO  game::audio] [audio] peak level over last second: 25492
+[2026-11-04T04:53:52Z INFO  game::gx_render] [gx] render: 4.020603ms per presented frame
+[2026-11-04T04:53:52Z INFO  game::gx_host] [gx] frame 4800: 1659 draws, 8321 vertices, 2260 texture binds; per frame: fifo 751.533µs, convert 1.125793ms, wall 16.683436ms (gap 16.2ms..17.3ms), decodes 0
+[2026-11-04T04:53:53Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:53:54Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:53:54Z INFO  game::gx_render] [gx] render: 3.653628ms per presented frame
+[2026-11-04T04:53:54Z INFO  game::gx_host] [gx] frame 4920: 1248 draws, 6272 vertices, 1658 texture binds; per frame: fifo 742.625µs, convert 1.067609ms, wall 16.681689ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:55Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:55Z INFO  game::audio] [audio] peak level over last second: 26899
+[2026-11-04T04:53:56Z INFO  game::audio] [audio] peak level over last second: 26629
+[2026-11-04T04:53:56Z INFO  game::gx_render] [gx] render: 2.444704ms per presented frame
+[2026-11-04T04:53:56Z INFO  game::gx_host] [gx] frame 5040: 1141 draws, 5926 vertices, 1543 texture binds; per frame: fifo 594.207µs, convert 884.69µs, wall 16.683479ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:53:56Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:57Z INFO  game::audio] [audio] peak level over last second: 21473
+[2026-11-04T04:53:57Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:53:58Z INFO  game::audio] [audio] peak level over last second: 20347
+[2026-11-04T04:53:58Z INFO  game::gx_render] [gx] render: 2.217253ms per presented frame
+[2026-11-04T04:53:58Z INFO  game::gx_host] [gx] frame 5160: 1196 draws, 6187 vertices, 1606 texture binds; per frame: fifo 544.304µs, convert 825.29µs, wall 16.680591ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:53:59Z INFO  game::audio] [audio] peak level over last second: 25349
+[2026-11-04T04:54:00Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:54:00Z INFO  game::audio] [audio] peak level over last second: 19285
+[2026-11-04T04:54:00Z INFO  game::gx_render] [gx] render: 2.093524ms per presented frame
+[2026-11-04T04:54:00Z INFO  game::gx_host] [gx] frame 5280: 979 draws, 5112 vertices, 1334 texture binds; per frame: fifo 493.015µs, convert 729.09µs, wall 16.68424ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:01Z INFO  game::audio] [audio] peak level over last second: 18341
+[2026-11-04T04:54:02Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:54:02Z INFO  game::hle] [vi] 600 retraces in 10.006924s (60.0 Hz), waiting 55%
+[2026-11-04T04:54:02Z INFO  game::audio] [audio] peak level over last second: 18159
+[2026-11-04T04:54:02Z INFO  game::gx_render] [gx] render: 1.825422ms per presented frame
+[2026-11-04T04:54:02Z INFO  game::gx_host] [gx] frame 5400: 882 draws, 4664 vertices, 1220 texture binds; per frame: fifo 440.599µs, convert 660.673µs, wall 16.68162ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:03Z INFO  game::audio] [audio] peak level over last second: 32767
+[2026-11-04T04:54:04Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:04Z INFO  game::gx_render] [gx] render: 1.891009ms per presented frame
+[2026-11-04T04:54:04Z INFO  game::gx_host] [gx] frame 5520: 792 draws, 4174 vertices, 1168 texture binds; per frame: fifo 435.472µs, convert 641.337µs, wall 16.68639ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:05Z INFO  game::audio] [audio] peak level over last second: 25295
+[2026-11-04T04:54:06Z INFO  game::audio] [audio] peak level over last second: 23558
+[2026-11-04T04:54:06Z INFO  game::gx_render] [gx] render: 1.538295ms per presented frame
+[2026-11-04T04:54:06Z INFO  game::gx_host] [gx] frame 5640: 720 draws, 3789 vertices, 1047 texture binds; per frame: fifo 364.2µs, convert 540.309µs, wall 16.680639ms (gap 16.3ms..17.1ms), decodes 0
+[2026-11-04T04:54:07Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:54:07Z INFO  game::audio] [audio] peak level over last second: 23710
+[2026-11-04T04:54:08Z INFO  game::audio] [audio] peak level over last second: 29461
+[2026-11-04T04:54:08Z INFO  game::gx_render] [gx] render: 1.603487ms per presented frame
+[2026-11-04T04:54:08Z INFO  game::gx_host] [gx] frame 5760: 829 draws, 4385 vertices, 1143 texture binds; per frame: fifo 394.707µs, convert 569.378µs, wall 16.683965ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:09Z INFO  game::audio] [audio] peak level over last second: 32626
+[2026-11-04T04:54:10Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:54:10Z INFO  game::audio] [audio] peak level over last second: 28571
+[2026-11-04T04:54:10Z INFO  game::gx_render] [gx] render: 2.068164ms per presented frame
+[2026-11-04T04:54:10Z INFO  game::gx_host] [gx] frame 5880: 1024 draws, 5392 vertices, 1385 texture binds; per frame: fifo 484.445µs, convert 718.181µs, wall 16.682758ms (gap 16.3ms..17.1ms), decodes 0
+[2026-11-04T04:54:11Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:12Z INFO  game::hle] [vi] 600 retraces in 10.0107573s (59.9 Hz), waiting 63%
+[2026-11-04T04:54:12Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:12Z INFO  game::gx_render] [gx] render: 2.186281ms per presented frame
+[2026-11-04T04:54:12Z INFO  game::gx_host] [gx] frame 6000: 967 draws, 4947 vertices, 1345 texture binds; per frame: fifo 521.365µs, convert 770µs, wall 16.684967ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:13Z INFO  game::audio] [audio] peak level over last second: 23432
+[2026-11-04T04:54:14Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:14Z INFO  game::gx_render] [gx] render: 2.126071ms per presented frame
+[2026-11-04T04:54:14Z INFO  game::gx_host] [gx] frame 6120: 1214 draws, 6134 vertices, 1659 texture binds; per frame: fifo 519.843µs, convert 747.953µs, wall 16.682222ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:14Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:54:15Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:16Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:16Z INFO  game::gx_render] [gx] render: 2.310849ms per presented frame
+[2026-11-04T04:54:16Z INFO  game::gx_host] [gx] frame 6240: 1156 draws, 5935 vertices, 1619 texture binds; per frame: fifo 571.967µs, convert 826.696µs, wall 16.683795ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:17Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:18Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:18Z INFO  game::gx_render] [gx] render: 2.350238ms per presented frame
+[2026-11-04T04:54:18Z INFO  game::gx_host] [gx] frame 6360: 1280 draws, 6524 vertices, 1764 texture binds; per frame: fifo 582.178µs, convert 834.928µs, wall 16.683353ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:19Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:20Z INFO  game::audio] [audio] peak level over last second: 26638
+[2026-11-04T04:54:20Z INFO  game::gx_render] [gx] render: 2.376086ms per presented frame
+[2026-11-04T04:54:20Z INFO  game::gx_host] [gx] frame 6480: 1180 draws, 6081 vertices, 1635 texture binds; per frame: fifo 588.552µs, convert 845.578µs, wall 16.680346ms (gap 16.0ms..17.3ms), decodes 0
+[2026-11-04T04:54:21Z INFO  game::audio] [audio] peak level over last second: 32566
+[2026-11-04T04:54:22Z INFO  game::hle] [vi] 600 retraces in 10.0102232s (59.9 Hz), waiting 56%
+[2026-11-04T04:54:22Z INFO  game::audio] [audio] peak level over last second: 26626
+[2026-11-04T04:54:22Z INFO  game::gx_render] [gx] render: 2.228447ms per presented frame
+[2026-11-04T04:54:22Z INFO  game::gx_host] [gx] frame 6600: 1088 draws, 5635 vertices, 1542 texture binds; per frame: fifo 562.779µs, convert 785.2µs, wall 16.684086ms (gap 16.1ms..17.1ms), decodes 0
+[2026-11-04T04:54:23Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:24Z INFO  game::audio] [audio] peak level over last second: 20692
+[2026-11-04T04:54:24Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:54:24Z INFO  game::gx_render] [gx] render: 2.156435ms per presented frame
+[2026-11-04T04:54:24Z INFO  game::gx_host] [gx] frame 6720: 1261 draws, 6437 vertices, 1687 texture binds; per frame: fifo 554.796µs, convert 800.003µs, wall 16.685354ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:25Z INFO  game::audio] [audio] peak level over last second: 29808
+[2026-11-04T04:54:26Z INFO  game::audio] [audio] peak level over last second: 26682
+[2026-11-04T04:54:26Z INFO  game::gx_render] [gx] render: 2.423101ms per presented frame
+[2026-11-04T04:54:26Z INFO  game::gx_host] [gx] frame 6840: 1273 draws, 6469 vertices, 1688 texture binds; per frame: fifo 637.002µs, convert 926.184µs, wall 16.680639ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:27Z INFO  game::console] Control 0 has S_CHARGE pressed.
+[2026-11-04T04:54:27Z INFO  game::audio] [audio] peak level over last second: 28541
+[2026-11-04T04:54:28Z INFO  game::audio] [audio] peak level over last second: 20482
+[2026-11-04T04:54:28Z INFO  game::gx_render] [gx] render: 2.201359ms per presented frame
+[2026-11-04T04:54:28Z INFO  game::gx_host] [gx] frame 6960: 1080 draws, 5611 vertices, 1465 texture binds; per frame: fifo 527.632µs, convert 783.8µs, wall 16.681811ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:29Z INFO  game::audio] [audio] peak level over last second: 20710
+[2026-11-04T04:54:30Z INFO  game::audio] [audio] peak level over last second: 15491
+[2026-11-04T04:54:30Z INFO  game::console] Control 0 has S_MAGIC pressed.
+[2026-11-04T04:54:30Z INFO  game::gx_render] [gx] render: 2.064498ms per presented frame
+[2026-11-04T04:54:30Z INFO  game::gx_host] [gx] frame 7080: 1015 draws, 5096 vertices, 1405 texture binds; per frame: fifo 498.846µs, convert 734.157µs, wall 16.685003ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:31Z INFO  game::audio] [audio] peak level over last second: 21113
+[2026-11-04T04:54:32Z INFO  game::hle] [vi] 600 retraces in 10.0096724s (59.9 Hz), waiting 56%
+[2026-11-04T04:54:32Z INFO  game::audio] [audio] peak level over last second: 24394
+[2026-11-04T04:54:32Z INFO  game::gx_render] [gx] render: 2.137691ms per presented frame
+[2026-11-04T04:54:32Z INFO  game::gx_host] [gx] frame 7200: 954 draws, 4909 vertices, 1379 texture binds; per frame: fifo 514.841µs, convert 764.259µs, wall 16.680682ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:33Z INFO  game::audio] [audio] peak level over last second: 26539
+[2026-11-04T04:54:34Z INFO  game::audio] [audio] peak level over last second: 13535
+[2026-11-04T04:54:34Z INFO  game::gx_render] [gx] render: 1.893562ms per presented frame
+[2026-11-04T04:54:34Z INFO  game::gx_host] [gx] frame 7320: 947 draws, 4832 vertices, 1371 texture binds; per frame: fifo 462.454µs, convert 683.135µs, wall 16.683866ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:35Z INFO  game::audio] [audio] peak level over last second: 19187
+[2026-11-04T04:54:36Z INFO  game::audio] [audio] peak level over last second: 25227
+[2026-11-04T04:54:36Z INFO  game::gx_render] [gx] render: 1.805543ms per presented frame
+[2026-11-04T04:54:36Z INFO  game::gx_host] [gx] frame 7440: 1009 draws, 5091 vertices, 1433 texture binds; per frame: fifo 463.92µs, convert 701.118µs, wall 16.684639ms (gap 16.3ms..17.0ms), decodes 0
+[2026-11-04T04:54:36Z INFO  game::console] Control 0 has S_MAGIC pressed.
+[2026-11-04T04:54:37Z INFO  game::audio] [audio] peak level over last second: 29611
+[2026-11-04T04:54:38Z INFO  game::audio] [audio] peak level over last second: 32767
+[2026-11-04T04:54:38Z INFO  game::gx_render] [gx] render: 1.796249ms per presented frame
+[2026-11-04T04:54:38Z INFO  game::gx_host] [gx] frame 7560: 985 draws, 5107 vertices, 1407 texture binds; per frame: fifo 441.017µs, convert 691.398µs, wall 16.681839ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:39Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:54:39Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:40Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-04T04:54:40Z INFO  game::gx_render] [gx] render: 1.795261ms per presented frame
+[2026-11-04T04:54:40Z INFO  game::gx_host] [gx] frame 7680: 943 draws, 4815 vertices, 1367 texture binds; per frame: fifo 437.739µs, convert 683.69µs, wall 16.68116ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:41Z INFO  game::audio] [audio] peak level over last second: 32203
+[2026-11-04T04:54:42Z INFO  game::hle] [vi] 600 retraces in 10.0089623s (59.9 Hz), waiting 61%
+[2026-11-04T04:54:42Z INFO  game::audio] [audio] peak level over last second: 27630
+[2026-11-04T04:54:42Z INFO  game::gx_render] [gx] render: 1.687528ms per presented frame
+[2026-11-04T04:54:42Z INFO  game::gx_host] [gx] frame 7800: 913 draws, 4695 vertices, 1296 texture binds; per frame: fifo 406.716µs, convert 644.256µs, wall 16.687138ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:43Z INFO  game::audio] [audio] peak level over last second: 23594
+[2026-11-04T04:54:44Z INFO  game::audio] [audio] peak level over last second: 25855
+[2026-11-04T04:54:44Z INFO  game::gx_render] [gx] render: 1.69058ms per presented frame
+[2026-11-04T04:54:44Z INFO  game::gx_host] [gx] frame 7920: 871 draws, 4493 vertices, 1254 texture binds; per frame: fifo 405.089µs, convert 646.856µs, wall 16.680905ms (gap 16.3ms..17.2ms), decodes 0
+[2026-11-04T04:54:45Z INFO  game::audio] [audio] peak level over last second: 28816
+[2026-11-04T04:54:46Z INFO  game::audio] [audio] peak level over last second: 28931
+[2026-11-04T04:54:46Z INFO  game::gx_render] [gx] render: 1.638489ms per presented frame
+[2026-11-04T04:54:46Z INFO  game::gx_host] [gx] frame 8040: 871 draws, 4493 vertices, 1254 texture binds; per frame: fifo 391.149µs, convert 625.609µs, wall 16.682883ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:47Z INFO  game::audio] [audio] peak level over last second: 27197
+[2026-11-04T04:54:48Z INFO  game::audio] [audio] peak level over last second: 28190
+[2026-11-04T04:54:48Z INFO  game::gx_render] [gx] render: 1.671945ms per presented frame
+[2026-11-04T04:54:48Z INFO  game::gx_host] [gx] frame 8160: 915 draws, 4703 vertices, 1298 texture binds; per frame: fifo 404.072µs, convert 642.117µs, wall 16.683704ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:49Z INFO  game::audio] [audio] peak level over last second: 28036
+[2026-11-04T04:54:50Z INFO  game::audio] [audio] peak level over last second: 29349
+[2026-11-04T04:54:50Z INFO  game::gx_render] [gx] render: 1.690065ms per presented frame
+[2026-11-04T04:54:50Z INFO  game::gx_host] [gx] frame 8280: 913 draws, 4695 vertices, 1296 texture binds; per frame: fifo 409.57µs, convert 651.155µs, wall 16.682677ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:51Z INFO  game::audio] [audio] peak level over last second: 21836
+[2026-11-04T04:54:52Z INFO  game::hle] [vi] 600 retraces in 10.0105803s (59.9 Hz), waiting 62%
+[2026-11-04T04:54:52Z INFO  game::audio] [audio] peak level over last second: 30864
+[2026-11-04T04:54:52Z INFO  game::gx_render] [gx] render: 1.708636ms per presented frame
+[2026-11-04T04:54:52Z INFO  game::gx_host] [gx] frame 8400: 911 draws, 4687 vertices, 1294 texture binds; per frame: fifo 413.683µs, convert 656.251µs, wall 16.68161ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:53Z INFO  game::audio] [audio] peak level over last second: 24312
+[2026-11-04T04:54:54Z INFO  game::audio] [audio] peak level over last second: 21964
+[2026-11-04T04:54:54Z INFO  game::gx_render] [gx] render: 1.735949ms per presented frame
+[2026-11-04T04:54:54Z INFO  game::gx_host] [gx] frame 8520: 914 draws, 4699 vertices, 1297 texture binds; per frame: fifo 416.482µs, convert 660.07µs, wall 16.684384ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:54:55Z INFO  game::audio] [audio] peak level over last second: 25292
+[2026-11-04T04:54:56Z INFO  game::audio] [audio] peak level over last second: 29450
+[2026-11-04T04:54:56Z INFO  game::gx_render] [gx] render: 1.696333ms per presented frame
+[2026-11-04T04:54:56Z INFO  game::gx_host] [gx] frame 8640: 914 draws, 4699 vertices, 1297 texture binds; per frame: fifo 410.355µs, convert 654.297µs, wall 16.682102ms (gap 15.7ms..17.5ms), decodes 0
+[2026-11-04T04:54:57Z INFO  game::audio] [audio] peak level over last second: 22674
+[2026-11-04T04:54:58Z INFO  game::audio] [audio] peak level over last second: 28794
+[2026-11-04T04:54:58Z INFO  game::gx_render] [gx] render: 1.694191ms per presented frame
+[2026-11-04T04:54:58Z INFO  game::gx_host] [gx] frame 8760: 913 draws, 4695 vertices, 1296 texture binds; per frame: fifo 411.019µs, convert 653.66µs, wall 16.682962ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:54:59Z INFO  game::audio] [audio] peak level over last second: 25915
+[2026-11-04T04:55:00Z INFO  game::audio] [audio] peak level over last second: 29476
+[2026-11-04T04:55:00Z INFO  game::gx_render] [gx] render: 1.731143ms per presented frame
+[2026-11-04T04:55:00Z INFO  game::gx_host] [gx] frame 8880: 914 draws, 4699 vertices, 1297 texture binds; per frame: fifo 417.213µs, convert 667.663µs, wall 16.684783ms (gap 15.9ms..17.3ms), decodes 0
+[2026-11-04T04:55:01Z INFO  game::audio] [audio] peak level over last second: 31259
+[2026-11-04T04:55:02Z INFO  game::hle] [vi] 600 retraces in 10.0097063s (59.9 Hz), waiting 62%
+[2026-11-04T04:55:02Z INFO  game::audio] [audio] peak level over last second: 21248
+[2026-11-04T04:55:02Z INFO  game::gx_render] [gx] render: 1.66962ms per presented frame
+[2026-11-04T04:55:02Z INFO  game::gx_host] [gx] frame 9000: 910 draws, 4683 vertices, 1293 texture binds; per frame: fifo 397.375µs, convert 644.407µs, wall 16.68372ms (gap 16.3ms..17.1ms), decodes 0
+[2026-11-04T04:55:03Z INFO  game::audio] [audio] peak level over last second: 15138
+[2026-11-04T04:55:03Z INFO  game::console] Control 0 has S_ATK_QUICK pressed.
+[2026-11-04T04:55:04Z INFO  game::audio] [audio] peak level over last second: 12278
+[2026-11-04T04:55:04Z INFO  game::gx_render] [gx] render: 1.998894ms per presented frame
+[2026-11-04T04:55:04Z INFO  game::gx_host] [gx] frame 9120: 1029 draws, 5294 vertices, 1413 texture binds; per frame: fifo 464.299µs, convert 738.123µs, wall 16.681116ms (gap 16.2ms..17.2ms), decodes 0
+[2026-11-04T04:55:04Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:55:04Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:55:05Z INFO  game::console] Control 0 has S_TURBO pressed.
+[2026-11-04T04:55:05Z INFO  game::console] Control 0 has S_DEFEND pressed.
+[2026-11-04T04:55:05Z INFO  game::audio] [audio] peak level over last second: 24221
+[2026-11-04T04:55:06Z INFO  game::audio] [audio] peak level over last second: 17895
+[2026-11-04T04:55:06Z INFO  game::gx_render] [gx] render: 1.757694ms per presented frame
+[2026-11-04T04:55:06Z INFO  game::gx_host] [gx] frame 9240: 911 draws, 4695 vertices, 1295 texture binds; per frame: fifo 426.14µs, convert 683.881µs, wall 16.682253ms (gap 16.2ms..17.1ms), decodes 0
+[2026-11-04T04:55:07Z INFO  game::audio] [audio] peak level over last second: 11467
+[2026-11-04T04:55:07Z INFO  game::console] Control 0 has S_ATK_SLOW pressed.
+[2026-11-04T04:55:07Z INFO  game::console] Control 0 has S_STRAFE pressed.
+[2026-11-04T04:55:08Z INFO  game::audio] [audio] peak level over last second: 27366
+[2026-11-04T04:55:09Z INFO  game] [quit] Esc prompt: yes

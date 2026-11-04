@@ -1,0 +1,12 @@
+Browse: “Browse...” next to “Game disc” opens the normal Windows file picker, filtered to .iso/.gcm files. I picked the ISO with it: the field filled in and the choice was saved. I’ve sent you a screenshot of the picker.
+Default: with the field empty, the launcher and game use the ISO in their own folder, and the field shows its name in grey.
+Missing disc: if the chosen disc isn’t there, PLAY shows a message asking you to use Browse instead of starting a game with no disc.
+What’s in the folder
+
+File	Purpose
+Gauntlet Launcher.exe	Settings and PLAY
+game.exe	The game, with its code and data built in
+SDL2.dll	Audio
+vcruntime140.dll	Visual C++ runtime, so it also runs on PCs without it installed
+Gauntlet - Dark Legacy (Revision 1).iso	Copy of your disc image, checked byte-for-byte against the original
+README.txt	Controls, options and command-line switches
