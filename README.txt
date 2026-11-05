@@ -1,6 +1,6 @@
 Gauntlet: Dark Legacy - PC port
 ================================
-
+THIS PROJECT IS STILL IN PROGRESS BUT FULLY PLAYABLE 
 
 you will need the iso file to run the game :Gauntlet - Dark Legacy (Revision 1)
 Start "Gauntlet Launcher.exe", choose your settings and press PLAY.
@@ -13,8 +13,8 @@ Files
   *.iso                   your Gauntlet: Dark Legacy (USA) disc image
 
 Game disc
-  The launcher uses the .iso in this folder. To use one elsewhere, press
-  "Browse..." next to "Game disc" and pick it.
+  The launcher uses the .iso in this folder. 
+   To use one elsewhere, press "Browse..." next to "Game disc" and pick it. 
 
 Controls (keyboard; gamepads also work, controllers 2-4 = players 2-4)
   WASD / arrows   move            Space   A (attack)
